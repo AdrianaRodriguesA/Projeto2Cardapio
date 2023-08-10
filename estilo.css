@@ -1,0 +1,144 @@
+*{
+    background-color: rgb(233, 194, 235); 
+}
+
+html{
+    scroll-behavior: smooth;
+    margin: 0;
+}
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: auto;
+    height: auto;
+    color: #3bbaa7;
+    text-align: center;
+}
+
+h1{
+    width: 100%;
+    background-color: rgb(170, 52, 75);
+}
+
+header{
+    background-color: rgb(170, 52, 75);
+    width: 100%;
+    padding: 10px;
+    position: relative;
+    max-width: auto;
+    align-items: center;
+    position: fixed; top: 0; right: 0; left: 0;
+   
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(170, 52, 75);
+    max-width: 1400px;
+    margin: auto;
+    height: 140px;
+}
+
+header .container{
+    display: flex;
+    margin-bottom: auto;
+    background-image: url(img/logo.png);
+    background-repeat: no-repeat;
+}
+
+header .menu{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+ 
+.nomeempresa{
+    background-color: rgb(170, 52, 75);
+}
+
+.menu{
+    background-color: rgb(170, 52, 75);
+    width: 30%;
+    padding: 16px 0px;
+    display: flex;
+    flex-direction: column;
+}
+/* para deixar o menu em coluna*/
+    
+a{
+    text-decoration: none;
+    color: #fff;
+    background-color: rgb(170, 52, 75);
+}
+
+a:hover{
+    background-color: #2e0d1a44;
+}
+
+.btn-escolha{
+    background-color: #3bbaa7;
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 32px;
+    display: inline-block;
+    border-radius: 10px;
+    font-size: 19px;
+    margin-top: 0;
+}
+
+.btn-escolha:hover{
+    background-color: #14e9c998;
+    color: rgb(170, 52, 75);
+}
+
+img{
+    width: 90%;
+    margin-top: 13%;
+    border-radius: 10px;
+}
+
+h2{
+    font-size: 50px;
+    display: inline-block;
+    background-color: rgb(190, 81, 81);
+    border-radius: 10px;
+}
+
+.caixa h2{
+    padding: 0px 60px;
+}
+
+h3{
+    font-size: 30px;
+    display: inline-block;
+    background-color: rgb(190, 81, 81);
+    border-radius: 10px;
+    padding: 0px 20px;
+    border: solid rgb(237, 221, 221);
+}
+
+#foto .item{
+    width: 30%;
+    float: left;
+    padding: 5px 5px;
+    text-align: center;
+    margin-left: 25px;
+}
+
+.item img{
+    margin-top: 0;
+}
+
+footer{
+    clear: both;
+    text-align: center;
+    background-color: rgb(170, 52, 75);
+}
+
+p{
+    background-color: rgb(170, 52, 75);
+    font-size: 13px;
+    font-weight: bold;
+}

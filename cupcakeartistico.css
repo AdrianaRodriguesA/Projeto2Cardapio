@@ -1,0 +1,119 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0 auto;
+    height: auto;
+    color: #41c3c8;
+    padding: 0;
+    text-align: center;
+    box-sizing: border-box;
+    background-position: center;
+}
+    
+h2, h3{
+    background-color: rgb(190, 81, 81);
+    padding: 10px;
+    color: rgb(179, 215, 209);
+    border-radius: 10px;
+    margin-left: 30%;
+    margin-right: 30%;
+    background-position: center;
+}
+    
+h1{
+    width: 70%;
+    font-size: 50px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+    
+h2{
+    font-size: 35px;
+}
+
+h3{
+    font-size: 25px;
+}
+
+h4{
+    font-size: 25px;
+}
+
+li{   
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-left: 30%;
+    margin-right: 30%
+}
+
+.caixa{
+    display: flex
+        
+}
+    
+header{
+    background-color: rgb(170, 52, 75);
+    width: 100%;
+    padding: 10px;
+    position: relative;
+    max-width: 1055px;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.menu{
+    width: 50%;
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff
+}
+
+a:hover{
+    transition: 0.5s;
+    background-color: #ffffff3a;
+    color: rgb(36, 4, 4);
+}
+
+p{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.btn-alternar{
+    background-color: #41c3c8;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    
+}
+
+.btn-escolha{
+    background-color: #41c3c8;
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 32px;
+    display: inline-block;
+    border-radius: 10px;
+    font-size: 16px;
+    margin-top: 90px;
+
+}
+
+.btn-escolha:hover{
+    background-color: #2b466aaf;
+}
+
+footer{
+    margin-top: 50px;
+    margin-left: 10px;
+    text-align: center;
+    background-color: rgb(170, 52, 75);
+}
+
+ol{
+    text-align: left;
+}
+    
